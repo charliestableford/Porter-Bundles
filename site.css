@@ -1,6 +1,28 @@
 #bundle .bundle-header-row {
   display: flex;
+  flex-direction: column;
 }
 #bundle .bundle-title {
+  margin-bottom: 8px;
+  font-size: 2.4rem;
+}
+#bundle .bundle-price-main-bold {
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+}
+#bundle .bundle-header-row > p {
+  margin-bottom: 24px;
+}
+#bundle .bundle-main {
   display: flex;
+  flex-direction: row;
+}
+#bundle .bundle-flag {
+  margin: 0 0 0 auto;
+}
+#bundle .bundle-description {
+  margin-bottom: 24px;
+}
+#bundle .bundle-alert-banner-text {
+  margin-bottom: 24px;
 }

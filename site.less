@@ -1,9 +1,40 @@
+@space-red: 24px;
+@space-yellow: 8px;
+
 #bundle{
     .bundle-header-row{
         display: flex;
+        flex-direction: column;
     }
 
     .bundle-title{
-        display: flex;
+        margin-bottom: @space-yellow;
+        font-size: 2.4rem;
     }
+
+    .bundle-price-main-bold{
+        font-size: 1.4rem;
+        margin-bottom: @space-yellow;
+    }
+
+    .bundle-header-row > p {
+        margin-bottom: @space-red;
+    }
+
+    .bundle-main{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bundle-flag{
+        margin: 0 0 0 auto;
+    }
+
+    .bundle-description{
+        margin-bottom: @space-red;
+    }
+    .bundle-alert-banner-text{
+        margin-bottom: @space-red;
+    }
+
 }
