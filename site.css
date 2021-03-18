@@ -17,6 +17,10 @@
   display: flex;
   flex-direction: row;
 }
+#bundle .bundle-price-info {
+  font-size: 1.4rem;
+  margin-bottom: 32px;
+}
 #bundle .bundle-flag {
   margin: 0 0 0 auto;
 }
@@ -25,4 +29,10 @@
 }
 #bundle .bundle-alert-banner-text {
   margin-bottom: 24px;
+}
+#bundle .bundle-secondary-title {
+  font-size: 1.6rem;
+}
+#bundle .bundles-flight-type {
+  display: flex;
 }
