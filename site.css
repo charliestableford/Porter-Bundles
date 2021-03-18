@@ -1,0 +1,6 @@
+#bundle .bundle-header-row {
+  display: flex;
+}
+#bundle .bundle-title {
+  display: flex;
+}
