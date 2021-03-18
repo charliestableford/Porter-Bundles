@@ -3,16 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="site.css">
     <title>Document</title>
 </head>
 <body>
     <div id="bundle">
-    <h1 class="bundle-header">Bundle and Save</h1>
-    <p class="bundle-description">Get your favourite travel add-ons for less! Mic and match different bundles gor your departing and return flights.<br>Plus, select a different bundle for each passenger's flights.</p>
-    <div class="bundle-alert-banner">
-        <span>icon</span>
-        <p class="bundle-alert-banner-text"> Don't want a bundle? Purchase seats and baggage individually - next page.</p>
+        <header>
+            <h1 class="bundle-header">Bundle and Save</h1>
+            <p class="bundle-description">Get your favourite travel add-ons for less! Mic and match different bundles gor your departing and return flights.<br>Plus, select a different bundle for each passenger's flights.</p>
+            <div class="bundle-alert-banner">
+                <span>icon</span>
+                <p class="bundle-alert-banner-text"> Don't want a bundle? Purchase seats and baggage individually - next page.</p>
+            </div>
+        </header>
+        <main>
+            <div class="bundle-wrap">
+                <section class="bundle-header-row">
+                    <h2 class="bundle-title">Starter Pack</h2>
+                    <div class="bundle-price">
+                        <p>$39</p>
+                        <p>$55</p>
+                    </div>
+                    <p>Per passenger, per direction</p>
+                    <div class="bundle-flag">
+                        <p>Save $16</p>
+                    </div>
+                </section>
+                <section class="bundle-accordion">
+                    <p>Includes</p>
+                    <div class="g-dropdown g-dropdown--secondary ">
+                        <div class="g-dropdown__heading g-dropdown__heading--secondary">
+                            <span>Heading one</span>
+                            <button class="g-collapsible__button Global_Expandable g-collapsible__button--secondary">
+                            <span class="f-icon-Chevron g-caret__dropdown-arrow"></span>
+                                    </button>
+                                </div>
+            
+                            <div class="g-dropdown__body g-collapsible__content g-dropdown__body--secondary">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet sodales lectus non tincidunt. Vestibulum laoreet enim ligula, vitae sodales lectus tempus quis. Vestibulum non lacinia quam. Praesent sed lectus efficitur, feugiat lorem vitae, ornare mi.</p>
+                        </div>
+                    </div>  
+                    <div class="g-dropdown g-dropdown--secondary ">
+                        <div class="g-dropdown__heading g-dropdown__heading--secondary">
+                            <span>Heading two</span>
+                            <button class="g-collapsible__button Global_Expandable g-collapsible__button--secondary">
+                            <span class="f-icon-Chevron g-caret__dropdown-arrow"></span>
+                                    </button>
+                                </div>
+            
+                            <div class="g-dropdown__body g-collapsible__content g-dropdown__body--secondary">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet sodales lectus non tincidunt. Vestibulum laoreet enim ligula, vitae sodales lectus tempus quis. Vestibulum non lacinia quam. Praesent sed lectus efficitur, feugiat lorem vitae, ornare mi.</p>
+                        </div>
+                    </div>                 
+                </section>
+                <section class="bundles-flight-type">
+                    <span>icon</span><h3>Select bundle for departing flight</h3>
+                    <input id="idcheckbox" name="your_name" type="checkbox" value="true" class="sg_checkbox__input">
+                    <label for="idcheckbox" class="sg_checkbox__label">Label</label>
+                </section>
+            </div>
+        </main>
     </div>
-</div>
 </body>
 </html>
